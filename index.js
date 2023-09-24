@@ -20,3 +20,6 @@ $("h1").on("mouseover", function(){
 $(document).keypress(function(event){
     $("h1").text(event.key);
 });
+$("input").click(function(){
+    $("h1").text($("input").val());
+});
