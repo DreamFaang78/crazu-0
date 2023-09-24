@@ -1,0 +1,12 @@
+.big-title{
+    font-size:10rem;
+    color: #311010;
+    font-family: cursive;
+}
+.margin-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+button::after{
+    hover: active;
+}
